@@ -22,7 +22,7 @@ public class WeatherController {
 	@Autowired
 	private WeatherServicesImpl weatherServicesImpl;
 
-	@RequestMapping(value = "/v1.0/data", method = RequestMethod.GET)
+	@RequestMapping(value = "/weather/data", method = RequestMethod.GET)
 	@ResponseStatus(HttpStatus.OK)
 	public @ResponseBody WeatherAverages data(@RequestParam("city") String city) throws CityNotFoundException {
 		return weatherServicesImpl.getWeatherForecastByCity(city);
