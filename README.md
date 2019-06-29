@@ -32,12 +32,12 @@ Donwload the soruce code and navigate to the root folder where the pom.xml is lo
 
 # Example of usage 
 
-[http://localhost:8080/v1.0/data?city=berlin](http://localhost:8080/v1.0/data?city=berlin)
+[http://localhost:8080/weather/data?city=mumbai](http://localhost:8080/weather/data?city=mumbai)
 
 Will generate a result like this: 
 
 `{
-  "dailyAverageTemperature" : -0.26,
-  "nightlyAverageTemperature" : -0.59,
-  "pressureAverage" : 1028.97
+  "dailyAverageTemperature" : 28.56,
+  "nightlyAverageTemperature" : 28.0,
+  "pressureAverage" : 1004.15
 }`
