@@ -3,12 +3,13 @@ Java Case Study – Weather forecast
 
 # Task
 
-	For task details plese click [here](taskdetails/Java Case Study – Weather forecast)
- 1. The API should expose a ​“/data”​​ endpoint to retrieve the averages  
- 2. The​ “/data” ​​endpoint should return a JSON object that gives the averages of the following metrics: 
-    * Average of daily (06:00 – 18:00) and nightly (18:00 – 06:00) temperatures in Celsius for the next 3 days from today’s date.
-    * Average of pressure for the next 3 days from today’s date. 
- 3. The​ “/data” ​​endpoint must include a CITY parameter containing the city’s name as the input for the correct response.
+The task:  Using Java (1.8 or newer), create an API that will retrieve weather metrics of a specific city. Please use ​https://openweathermap.org/​ to create a free account and retrieve the data for this case study.  
+ 
+The requirements:  ✓ The API should produce a endpoint to retrieve the averages 
+ ✓ The endpoint should return a JSON object that gives the averages of the following metrics: 
+     o Average of daily (06:00 – 18:00) and nightly (18:00 – 06:00) temperatures in Celsius for the next 3 days from today’s date.
+	 o Average of pressure for the next 3 days from today’s date. 
+ ✓ The endpoint must include a CITY parameter containing the city’s name as the input for the correct response.  
  
 # Tools Used
 
